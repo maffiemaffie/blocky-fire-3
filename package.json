@@ -4,7 +4,8 @@
   "description": "?????? OTRAVEZ????? 🙀🙀🙀 (yea it uses canvas now (and maybe also web components????) bye bye forever p5 &lt;3)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -p tsconfig.json"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "cell-renderer": "^1.0.1"
+    "cell-renderer": "^1.0.3",
+    "maffie-noise": "^1.0.2"
   }
 }
